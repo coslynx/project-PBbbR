@@ -1,0 +1,9 @@
+hostel.csv:
+
+hostel_name,room_number,capacity,gender
+Hostel A,101,4,M
+Hostel A,102,4,F
+Hostel B,201,6,M
+Hostel B,202,6,F
+Hostel C,301,8,M
+Hostel C,302,8,F
