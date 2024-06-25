@@ -1,0 +1,22 @@
+room_allocation.py
+
+import pandas as pd
+
+def allocate_rooms(group_data, hostel_data):
+    allocated_rooms = pd.DataFrame(columns=['Group ID', 'Member Name', 'Hostel Name', 'Room Number'])
+    
+    # Your room allocation logic here
+    
+    return allocated_rooms
+
+# Load group data
+group_data = pd.read_csv('data/group.csv')
+
+# Load hostel data
+hostel_data = pd.read_csv('data/hostel.csv')
+
+# Allocate rooms based on specific criteria
+allocated_rooms = allocate_rooms(group_data, hostel_data)
+
+# Save allocated rooms to CSV
+allocated_rooms.to_csv('output/allocated_rooms.csv', index=False)
